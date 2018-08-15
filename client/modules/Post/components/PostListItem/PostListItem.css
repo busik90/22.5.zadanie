@@ -119,3 +119,14 @@ textarea {
     color: #555;
 }
 
+.thumb-up-btn {
+    margin: 5px;
+}
+
+.thumb-down-btn {
+    margin: 5px;
+}
+
+.votes-number {
+    margin: 5px;
+}
