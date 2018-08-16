@@ -90,11 +90,18 @@ textarea {
     margin-bottom: 8px;
 }
 
+.post-action {
+    max-width: 180px;
+    display: flex;
+    align-items: center;
+}
+
 .post-action a{
     color: #555;
     text-decoration: none;
     font-size: 14px;
     font-style: italic;
+    margin-right: auto;
 }
 
 .post-action a:hover{
@@ -119,14 +126,29 @@ textarea {
     color: #555;
 }
 
-.thumb-up-btn {
-    margin: 5px;
+button {
+    width: 22px;
+    height: 18px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ddd;
 }
 
-.thumb-down-btn {
-    margin: 5px;
+button:hover {
+    cursor: pointer;
+}
+
+.thumb-up-btn:hover {
+    font-weight: bold;
+    background-color: rgba(0, 128, 0, 0.6);
+}
+
+.thumb-down-btn:hover {
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.6);
 }
 
 .votes-number {
-    margin: 5px;
+    margin: 0 5px;
 }
